@@ -1,0 +1,43 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th{
+      text-align: left;
+      font-size: 15px;
+    font-weight: bold;
+    border-color: #ccc !important;
+    color: #666666;
+  }
+
+td{
+     text-align: right;
+     font-weight: bold;
+ }
+
+tr{
+     height: 40px;
+ }
+
+.gray {
+background-color: gray;
+ }
+
+.ABC{
+    text-decoration: underline;
+    color: #337ab7;
+    text-align-last: left;
+}
+
+table{
+    width: 90%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ 
